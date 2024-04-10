@@ -1,17 +1,1 @@
-jinzhis9@bu.edu
-
-1.https://www.youtube.com/watch?v=-RhVzXGi3lA&t=245s
-
-2.https://elixir.bootlin.com/linux/v4.19.82/source/drivers/gpio/gpiolib.c
-
-3.https://docs.kernel.org/core-api/genericirq.html
-
-In the video, the top button on the board is BNT 0 where it is able to swtich betwee "Normal", "Fleshing red", "Fleshing yellow" mods;
-
-The bottom button is BNT 1 where is it able to only provides pedastrain crossing when pressed in Normal mod
-
-In out design, when the pedastrain pressed BNT1 when green light in Normal is on, we need to wait for the green cycle end and that is when the 
-
-pedastrain is "waiting" and the the other two lights on mod is processing the status is "crossing". Note that we didn't show "crossing" when red flashing
-
-because we coudln't determine when fleshing red/yellow a pedastrain is present. (They are allow to cross but there isn't necessary a person present at the time)
+This is the self-made oscilloscope for EC535 Spring 2024 final project
